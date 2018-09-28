@@ -100,13 +100,13 @@ header{}
 #icons a{ display:block; position:relative;}
 #icons .img_act{ position:absolute; top:0; left:0}
 
-.scroll{height:308px; width:362px; overflow:hidden;}
+.scroll{height:350px; width:350px; overflow:hidden;}
 .track{ width:22px; height:287px; padding:24px 0; top:28px !important; left:366px !important; background: url(../images/scroll_track.jpg) 0 0 no-repeat}
 .shuttle{ width:16px; height:16px; background: url(../images/scroll_drag.png) 0 0 no-repeat; margin-left:3px;}
 ._up-butt, ._down-butt{ height:0px !important;}
 
 .gallery{}
-.gallery li{ float:left; margin-bottom:13px; margin-right:14px;}
+.gallery li{ float:left; margin-bottom:0px; margin-right:0px;}
 .gallery a{ display:block; position:relative;}
 .gallery .last{ margin-bottom:0;}
 .gallery span{ position:absolute; top:0; left:0; background:url(../images/border1.png) 0 0 no-repeat; width:100%; height:100%;}
@@ -139,7 +139,11 @@ footer a:hover{}
 .social .last{ background:none; margin-right:0; padding-right:0}
 .social a{ position:relative;}
 .social span{ position: absolute; bottom:0; left:0; width:0; height:1px;}
-
+body{
+    background:url(../images/ting-9208632bf2bfdca.jpg)  no-repeat;
+    background-size:100% 100%;
+    
+}
 
 
 /* ============================= forms ============================= */
